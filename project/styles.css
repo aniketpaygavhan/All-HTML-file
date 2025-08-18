@@ -1,0 +1,212 @@
+/* styles.css - playful wedding theme */
+
+:root {
+    --bg: #fffaf0;
+    --card: #fff;
+    --accent: #ff6b6b;
+    --muted: #6b6b6b;
+    --shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    --glass: rgba(255, 255, 255, 0.6);
+    --fancy: 'Comic Sans MS', 'Segoe UI', Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fancy);
+}
+
+body {
+    background: linear-gradient(120deg, #fffaf0 0%, #fff0f6 100%);
+    color: #222;
+    padding: 28px;
+    line-height: 1.4;
+}
+
+
+/* container */
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    background: var(--card);
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.logo {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ffd1dc, #ffe7b3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: 0 6px 14px rgba(255, 107, 107, 0.12);
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.header p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+
+/* nav */
+
+nav {
+    margin: 16px 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: var(--glass);
+    margin-right: 8px;
+    color: #222;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+
+/* hero */
+
+.hero {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    margin-bottom: 18px;
+}
+
+.hero img {
+    width: 160px;
+    border-radius: 10px;
+}
+
+
+/* sections */
+
+section {
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+p.lead {
+    color: var(--muted);
+    font-size: 15px;
+}
+
+
+/* table scoreboard */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(90deg, #fff7f7, #fff);
+}
+
+
+/* cards */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.card {
+    padding: 12px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #fff, #fffef8);
+    box-shadow: var(--shadow);
+}
+
+
+/* funny marquee-like box */
+
+.announcement {
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff0f6;
+    border: 1px dashed #ffb3c1;
+    color: #a7002a;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+
+/* footer */
+
+footer {
+    border-top: 1px dashed rgba(0, 0, 0, 0.04);
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/* small responsive */
+
+@media (max-width:520px) {
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}

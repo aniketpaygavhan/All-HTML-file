@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>1.Software Training Institute Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <br>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="nam" name="name">
+            <br><br>
+            <label for="em">Email Address:</label>
+            <input type="em" name="Email">
+            <br><br>
+            <label for="phoneno">Phone Number:</label>
+            <input type="number" name="number">
+            <br><br>
+            <label for="eucationlevel">Higher Educational Qualification:</label>
+            <select name="educationlevel" id="nam">
+                <option value="eucationlevel">--Select Edication Level--</option>
+                <option value="....">....</option>
+                <option value="---">-----</option>
+            </select>
+            <br><br>
+            <label for="Employmentstatus">Employment Status :</label><br>
+            <input type="radio" name="Employmentstatus" id="emp">
+            <label for="Student">Student</label><br>
+            <input type="radio" name="Employmentstatus" id="em">
+            <label for="employed">Employed</label><br>
+            <input type="radio" name="Employmentstatus">
+            <label for="Unemployd">Unemployd</label><br>
+            <input type="radio" name="Employmentstatus" id="em">
+            <label for="selfemployed">Self-employed</label><br>
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="main.java" method="post">
+        <fieldset>
+            <legend>Course Selection</legend>
+            <br>
+            <label for="category">Course category:</label>
+            <select name="course" id="cs">
+                    <option value="category">--Select Category--</option>
+                    <option value="...">...</option>
+                    <option value="---">---</option>
+                    <option value="***">***</option>
+                </select>
+            <br><br>
+            <label for="specific">Specific course</label>
+            <select name="course" id="cs">
+                    <option value="specific">--First Select a Category--</option>
+                    <option value="...">...</option>
+                    <option value="---">---</option>
+                    <option value="***">***</option>
+                </select>
+            <br><br>
+            <label for="level">Course Level</label><br>
+            <select name="level" id="le">
+                    <option value="level">--Select Level:--</option>
+                    <option value="---">---</option>
+                    <option value="***">***</option>
+                </select>
+            <br><br>
+            <label for="batch">Preferred Batch Timing.</label><br>
+            <select name="batch" id="le">
+                    <option value="batch">--Select Timing--</option>
+                    <option value="---">---</option>
+                    <option value="***">***</option>
+                </select>
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="main.java">
+        <fieldset>
+            <legend>Technical Background</legend>
+
+            <br>
+            <label for="">Programming Language Known(Select all that apply):</label><br>
+            <input type="checkbox" name="java" id="jv">
+            <label for="java">Java</label><br>
+            <input type="checkbox" name="Python" id="jv">
+            <label for="Python">Python</label><br>
+            <input type="checkbox" name="javasript" id="jv">
+            <label for="javasript">Java Sript</label><br>
+            <input type="checkbox" name="javasript" id="jv">
+            <label for="javasript">Java Sript</label><br>
+            <input type="checkbox" name="c#" id="jv">
+            <label for="c#">C#</label><br>
+            <input type="checkbox" name="cpp" id="jv">
+            <label for="c++">C++</label><br>
+            <input type="checkbox" name="php" id="jv">
+            <label for="php">PHP</label><br>
+            <input type="checkbox" name="rubby" id="jv">
+            <label for="rubby">Rubby</label><br>
+            <input type="checkbox" name="other" id="jv">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="">Years of Programming Experiece:</label>
+            <input type="text" name="year" id="yr">
+            <br><br>
+            <label for="">Technical Background:</label>
+            <br>
+            <textarea name="Background" id="bc" placeholder="Briefly desribe your techinical Background or experience..." rows="4" cols="50"></textarea>
+            <br>
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="main.java">
+        <fieldset>
+            <legend>Additional Information</legend>
+            <br>
+            <label for="">How did you hear about us?</label><br>
+            <select name="option" id="opt">
+                    <option value="option">--Select Option--</option>
+                    <option value="---">---</option>
+                    <option value="***">***</option>
+                </select>
+            <br><br>
+            <label for="">What are your learning goals?</label><br>
+            <textarea name="" id="" placeholder="Describe what you hope to achieve through this training..." rows="5" cols="50"></textarea>
+            <br><br>
+            <input type="checkbox">
+            <label for="">Subscribe to our newsletter for updates on new courses and offers</label>
+            <br><br>
+            <input type="checkbox">
+            <label for="">I agree to Terms and Conditions</label>
+        </fieldset>
+    </form>
+    <br><br>
+    <button type="register">Register</button>
+    <button type="clearform">Clear Form</button>
+
+</body>
+
+</html>

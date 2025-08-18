@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML Forms Demonstration</h1>
+    <h2>1.Contact Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Fullname">Full Name:</label>
+            <input type="text" placeholder="John Doe">
+            <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" placeholder="example@domain.com">
+            <br><br>
+            <label for="phoneno">Phone Number:</label>
+            <input type="number" placeholder="123-456-7890">
+            <br><br>
+            <label for="msg">Your Message:</label><br>
+            <textarea name="msg" id="msg" rows="4" cols="40" placeholder="Type your message here..."></textarea>
+            <br><br>
+            <div>
+                <input type="checkbox">Subscribe to our newsletter
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="Clearform">Clear Form</button>
+        </fieldset>
+    </form>
+    <h2>2. User Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend>Create Account</legend><br>
+            <label for="username">Username:</label>
+            <input type="text" id="name">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="pwd" name="pwd" />
+            <br><br>
+            <label for="conformpassword">Conform Password:</label>
+            <input type="password">
+            <br><br>
+            <label for="dob">Date of Birth :</label>
+            <input type="date" name="dob" id="dob">
+            <br><br>
+            <label for="Gender">Gender:</label><br>
+            <input type="radio" id="m" name="Gender">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="Gender" id="f">
+            <label for="Female">Female</label><br>
+            <input type="radio" name="Gender" id="o">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="country">country:</label>
+            <select name="country" id="cn">
+            <option selected disabled>---Select country---</option>
+            <option value="usa">USA</option>
+            <option value="in">INDIA</option>
+            <option value="rs">RASIA</option>
+            </select>
+            <br><br>
+            <input type="checkbox">
+            <label for="checkbox">I agree to the <a href="dsd">Terms and Conditions</a> </label>
+            <br><br>
+            <button type="register">Register</button>
+        </fieldset>
+    </form>
+    <h2>3.Customer Feedback Survey</h2>
+    <form>
+        <fieldset>
+            <legend>Survey Information</legend>
+            <p>How Satisfied are you with our service?</p><br>
+            <input type="range">5/10
+            <br><br>
+            <p>Which products have you used?(Select all that apply)</p>
+            <input type="checkbox">
+            <label for="pa">product A</label><br>
+            <input type="checkbox">
+            <label for="pb">product B</label><br>
+            <input type="checkbox">
+            <label for="pc">product C</label><br>
+            <input type="checkbox">
+            <label for="pd">product D</label><br><br>
+            <p>How often do you use our services?</p>
+            <br><br>
+            <p>Do You have any suggestions for improvement?</p>
+            <textarea name="" id="" rows="6" cols="60"></textarea>
+            <br><br>
+            <label for="luky">How likely are you to recommend us?</label><br>
+            <input type="radio" name="luky">
+            <label for="Verylikely">Very Likely</label><br>
+            <input type="radio" name="luky">
+            <label for="Likely">Likely</label><br>
+            <input type="radio" name="luky">
+            <label for="unlikely">UnLikely</label><br>
+            <input type="radio" name="luky">
+            <label for="Veryunlikely">Very unLikely</label><br><br>
+            <button type="Submitsurvey">Submit Survey</button>
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

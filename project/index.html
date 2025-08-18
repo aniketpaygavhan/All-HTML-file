@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Wedding Crashers — Funny Marriage Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header" role="banner">
+            <div class="logo" aria-hidden="true">WM</div>
+            <div>
+                <h1>Wedding Crashers: The Ultimate (Funny) Guide</h1>
+                <p class="lead">Short, spicy, and slightly suspicious — perfect for impressing Sir in presentation.</p>
+            </div>
+        </header>
+
+        <nav role="navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="marriage.html">Marriage Guide (Funny)</a>
+            <a href="#scoreboard">Scoreboard</a>
+            <a href="#rsvp">RSVP</a>
+        </nav>
+
+        <main role="main">
+            <section class="hero">
+                <img src="https://i.imgur.com/4AiXzf8.png" alt="cartoon couple celebrating">
+                <div>
+                    <h2>Welcome, brave presenter!</h2>
+                    <p class="lead">This page contains all the essentials for a wedding-themed, laugh-loaded presentation. Use the "Marriage Guide" link to see the big romantic (but funny) reveal.</p>
+                    <p><strong>Pro tip:</strong> When Sir asks "Why this page?" just smile and say "Because love needs HTML."</p>
+                    <p><a class="button" href="marriage.html">Open the Marriage Guide →</a></p>
+                </div>
+            </section>
+
+            <section id="scoreboard" aria-labelledby="scoreboard-heading">
+                <h2 id="scoreboard-heading">Presentation Scoreboard</h2>
+                <p>How to win Sir's heart (and marks):</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Move</th>
+                            <th>Effect</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Funny opening line</td>
+                            <td>Sir smiles</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Controlled panic</td>
+                            <td>Sir feels important</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Confident pause</td>
+                            <td>Everyone claps? maybe</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Cute meme</td>
+                            <td>Instant wifi boost (imaginary)</td>
+                            <td>12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section aria-labelledby="rsvp">
+                <h2 id="rsvp">RSVP — (optional)</h2>
+                <p>Tell us if you laughed (honestly):</p>
+                <form id="funform" action="#" method="get" role="form">
+                    <label for="name">Your Name:</label><br>
+                    <input id="name" name="name" type="text" placeholder="Your famous name"><br><br>
+
+                    <label>Did you laugh?</label><br>
+                    <input type="radio" id="laugh-yes" name="laugh" value="yes">
+                    <label for="laugh-yes">Yes (100% honest)</label><br>
+                    <input type="radio" id="laugh-no" name="laugh" value="no">
+                    <label for="laugh-no">No (Sir forced)</label><br><br>
+
+                    <label for="comment">One-line roast for Sir (optional):</label><br>
+                    <textarea id="comment" name="comment" rows="3" placeholder="Sir, your jokes are older than my HTML"></textarea><br><br>
+
+                    <input class="button" type="submit" value="Send RSVP">
+                </form>
+            </section>
+
+            <section class="grid" aria-label="extras">
+                <div class="card">
+                    <h3>Wedding Quick Tips</h3>
+                    <ul>
+                        <li>Bring sweets — everyone loves sweets.</li>
+                        <li>Smile at the camera (even if you forget lines).</li>
+                        <li>Always nod like you understand CSS.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Top 3 Marriage Myths</h3>
+                    <ol>
+                        <li>Couples never fight — false (they hide snacks).</li>
+                        <li>Romance is expensive — false (love and instant noodles work).</li>
+                        <li>Happily ever after — works in .gif form.</li>
+                    </ol>
+                </div>
+
+                <div class="card">
+                    <h3>Emergency Meme</h3>
+                    <p>If the presentation stalls, show this meme:</p>
+                    <img src="https://i.imgur.com/8Km9tLL.png" alt="emergency meme" style="max-width:100%;border-radius:8px;">
+                </div>
+            </section>
+
+        </main>
+
+        <aside role="complementary" class="announcement">
+            ⚠️ Warning: This page may cause sudden fits of laughter. Use responsibly during exams.
+        </aside>
+
+        <footer role="contentinfo">
+            <span>Made by: Aniket — Certified Presenter (self-appointed)</span>
+            <span><a href="marriage.html">Open Marriage Guide</a></span>
+        </footer>
+    </div>
+
+</body>
+
+</html>

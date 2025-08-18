@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<link rel="Shortcut icon" href="https://img.freepik.com/premium-photo/branding-identity-corporate-logo-vector-design-template_475577-47465.jpg">
+
+<body>
+    <link rel="favicon" href="https://img.freepik.com/premium-photo/branding-identity-corporate-logo-vector-design-template_475577-47465.jpg" type="image/x-icon">
+    <form action="main.java" method="get">
+        <input type="hidden" name="class" value="x">
+        <label for="">Enter your Feedback</label><br><br>
+        <textarea name="Feedback" id="fd"></textarea><br><br>
+        <input type="radio" name="Gender" value="male" id="m" checked/>
+        <label for="m">Male</label>
+        <input type="radio" name="Gender" value="Female" id="f" />
+        <label for="f">Female</label>
+        <br><br>
+        <p>Select languages Known:</p>
+        <input type="checkbox" name="lang" value="hin" id="hin">
+        <label for="hin">Hindi</label>
+        <input type="checkbox" name="lang" value="en" id="en">
+        <label for="en">English</label>
+        <input type="checkbox" name="lang" value="mar" id="mar">
+        <label for="mar">Marathi</label>
+        <br><br>
+        <p>Selecting a Course</p>
+        <select name="Course" id="" multiple size="6"> 
+            <optgroup label="Engneering">
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="ECE">ECE</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Civill">Civill</option>
+                <option value="AIML">AIML</option>
+                <option value="AIDS">AIDS</option>
+            </optgroup>
+                <optgroup label="Degree">
+                <option value="BSC">BSC</option> 
+                <option value="BCA">BCA</option>
+                <option value="BSC">BSC</option>
+            </optgroup>
+            <optgroup label="Post grad">
+                <option value="MBA">MBA</option>
+            </optgroup>
+        </select>
+        <button>Submit</button>
+
+
+    </form>
+</body>
+
+</html>
