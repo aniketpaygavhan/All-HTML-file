@@ -1,0 +1,19 @@
+h1 {
+    /* color: #ab12ab;*/
+    color: rgba(113, 53, 232, 0.861);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    background-image: linear-gradient(orange, white, green);
+}
+
+.div1 {
+    height: 300px;
+    width: 100px;
+    background-color: red;
+}
+
+.div2 {
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+}
