@@ -1,0 +1,9 @@
+h1 {
+    height: 100vh;
+    background-image: linear-gradient(red, indigo, blue, green, yellow, orange);
+}
+
+.myname {
+    font-size: 48px;
+    background-image: =linear linear-gradient(to right, orange, red);
+}

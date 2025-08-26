@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: 0px;
+}
+
+img {
+    float: right;
+    height: 150px;
+}
+
+p {
+    clear: right;
+}
+
+.d1 {
+    background-color: red;
+    color: white;
+    height: 500;
+    width: 500;
+    text-align: center;
+    align-content: center;
+}
+
+.d2 {
+    background-color: green;
+    color: white;
+    height: 1000;
+    width: 1000;
+}
+
+.d3 {
+    background-color: yellow;
+    color: white;
+    height: 1000;
+    width: 200;
+}
+
+main {
+    display: flex;
+    gap: 5px;
+}

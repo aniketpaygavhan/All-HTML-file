@@ -1,0 +1,143 @@
+* {
+    padding: 5px;
+}
+
+.box1 {
+    border: solid;
+    color: blue;
+}
+
+.p1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p3 {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p4 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p5 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box2 {
+    border: dashed;
+    color: red;
+}
+
+.p6 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p7 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p8 {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p9 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p0 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box3 {
+    border: dotted;
+    color: green;
+}
+
+.p11 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p12 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p13 {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p14 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p15 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box4 {
+    border: 2px solid rgb(20, 7, 20);
+    color: red;
+}
+
+.p16 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p17 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p18 {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p19 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p20 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bc {
+    background-color: lightyellow;
+}
+
+.bc1 {
+    background-color: lightblue;
+}
+
+.bc2 {
+    background-color: lightgreen;
+}
+
+.bc3 {
+    background-color: lightcoral;
+}
+
+.a1 {
+    text-transform: uppercase;
+}
