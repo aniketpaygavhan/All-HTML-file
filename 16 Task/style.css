@@ -1,0 +1,54 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 9px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: white;
+}
+
+main {
+    background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=);
+    color: white;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.about {
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box2>h1 {}
+
+.b1 {
+    display: flex;
+}
