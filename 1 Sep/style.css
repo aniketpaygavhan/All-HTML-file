@@ -1,4 +1,4 @@
-        * {
+                * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -280,16 +280,219 @@
             .buttons {
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
-            }
-            #skills {
-                flex-direction: column;
-            }
-            #projects {
-                grid-template-columns: repeat(1, 1fr);
-            }
-        }
-        
-        @media (min-width:769px) and (max-width:996px) {}
-        
-        @media (min-width:996px) and (max-width:1024px) {}
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                body {
+                    font-family: sans-serif;
+                    background: #fff;
+                }
+                header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    max-width: 1280px;
+                    margin: 20px auto;
+                    padding: 20px;
+                    box-shadow: 2px 3px 10px gray;
+                    border-radius: 40px;
+                }
+                .logo {
+                    font-size: 48px;
+                    animation: upDown 0.5s ease alternate infinite;
+                }
+                .logo span {
+                    color: blue;
+                }
+                nav {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                }
+                nav ul {
+                    list-style: none;
+                    display: flex;
+                    gap: 20px;
+                }
+                nav ul li a {
+                    font-size: 24px;
+                    text-decoration: none;
+                    color: black;
+                }
+                nav ul li a:hover {
+                    color: blue;
+                }
+                nav button {
+                    padding: 10px;
+                    border-radius: 50%;
+                    background: gray;
+                    color: white;
+                    font-size: 24px;
+                }
+                #banner {
+                    display: flex;
+                    max-width: 1280px;
+                    margin: 50px auto;
+                    gap: 100px;
+                    flex-wrap: wrap;
+                }
+                .left {
+                    flex: 1;
+                }
+                .right img {
+                    width: 100%;
+                    animation: slideFromRight 1s ease;
+                }
+                #role {
+                    color: blue;
+                }
+                .left p {
+                    font-size: 18px;
+                    color: gray;
+                    line-height: 1.6;
+                    text-align: justify;
+                }
+                .buttons button {
+                    padding: 15px 30px;
+                    margin: 10px 10px 0 0;
+                    font-size: 18px;
+                    border-radius: 20px;
+                    background: black;
+                    color: white;
+                    border: none;
+                }
+                .secondBtn {
+                    background: white;
+                    border: 1px solid black;
+                    color: black;
+                }
+                button a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+                .title {
+                    text-align: center;
+                    font-size: 32px;
+                    margin: 40px 0 20px;
+                    background-image: linear-gradient(to right, white, blue);
+                    background-clip: text;
+                    color: transparent;
+                }
+                #skills {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    max-width: 1280px;
+                    margin: auto;
+                }
+                .skill-tech {
+                    padding: 20px;
+                    box-shadow: 5px 5px 10px blue;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                .skills {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: center;
+                }
+                .skills img {
+                    width: 100px;
+                    height: 100px;
+                    object-fit: contain;
+                    padding: 10px;
+                    border-radius: 10px;
+                    background: white;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+                }
+                #projects {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                    gap: 20px;
+                    max-width: 1280px;
+                    margin: auto;
+                    padding: 20px;
+                }
+                .project {
+                    padding: 20px;
+                    box-shadow: 5px 5px 10px blue;
+                    border-radius: 20px;
+                }
+                .project img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+                .project button {
+                    padding: 10px 20px;
+                    margin-top: 10px;
+                    background: black;
+                    color: white;
+                    border-radius: 20px;
+                    font-size: 16px;
+                }
+                #contact {
+                    max-width: 600px;
+                    margin: 40px auto;
+                    padding: 20px;
+                    box-shadow: 5px 5px 10px blue;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                footer {
+                    background: black;
+                    color: white;
+                    text-align: center;
+                    padding: 15px;
+                }
+                .floating-watsapp {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 10px;
+                }
+                .floating-watsapp img {
+                    width: 60px;
+                    height: 60px;
+                    animation: zoomIn 0.5s ease infinite alternate;
+                }
+                /* Animations */
+                @keyframes slideFromRight {
+                    0% {
+                        transform: translateX(500px);
+                    }
+                    100% {
+                        transform: translateX(0);
+                    }
+                }
+                @keyframes upDown {
+                    100% {
+                        transform: translateY(-10px);
+                    }
+                }
+                @keyframes zoomIn {
+                    100% {
+                        transform: scale(1.07);
+                    }
+                }
+                /* Responsive */
+                @media (max-width: 768px) {
+                    header {
+                        flex-direction: column;
+                        text-align: center;
+                        gap: 10px;
+                    }
+                    #banner {
+                        gap: 10px;
+                    }
+                    #skills {
+                        flex-direction: column;
+                    }
+                    #projects {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                }
+                @media (min-width:769px) and (max-width:996px) {}
+                @media (min-width:996px) and (max-width:1024px) {}

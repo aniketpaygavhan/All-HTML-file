@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Only Flowers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: #d1d8c6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: #f9dede;
+            width: 90%;
+            max-width: 1200px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        /* Navbar */
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #556b4e;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo span {
+            margin-left: 5px;
+        }
+        
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        
+        .navbar ul li a:hover {
+            color: #556b4e;
+            font-weight: bold;
+        }
+        /* Main content */
+        
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .text {
+            max-width: 500px;
+        }
+        
+        .text h1 {
+            font-size: 48px;
+            color: #556b4e;
+            margin-bottom: 20px;
+        }
+        
+        .text h2 {
+            font-size: 20px;
+            font-style: italic;
+            color: #556b4e;
+            margin-bottom: 20px;
+        }
+        
+        .text p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .btn {
+            background: #556b4e;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        
+        .btn:hover {
+            background: #3d4f37;
+        }
+        /* Image */
+        
+        .image-box {
+            position: relative;
+        }
+        
+        .image-box img {
+            width: 380px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="logo">🌼 <span>Only Flowers</span></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="text">
+                <h1>Flowers make you smile</h1>
+                <h2>20% off for all flower bouquet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="image-box">
+                <!-- येथे background remove केलेले तुझे photo वापर -->
+                <img src="flowers.png" alt="Flower Bouquet">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

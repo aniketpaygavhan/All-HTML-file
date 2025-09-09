@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: AniketFont;
+    src: url('./HARRYP__.TTF');
+}
+
+body {
+    font-family: AniketFont;
+    font-size: 72px;
+    height: 100vh;
+}
