@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px rgb(203, 203, 203);
+}
+
+h4 {
+    color: blue;
+    font-size: 35px;
+    padding-left: 10%;
+    text-shadow: 2px 3px 8px rgb(199, 199, 199);
+}
+
+nav {
+    gap: 35px;
+    display: flex;
+    padding-right: 10%;
+}
+
+span>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.box1>img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: double 3px white;
+    box-shadow: 2px 4px 9px gray;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.content>h1>span {
+    color: blue;
+}
+
+.content>p {
+    color: gray;
+}
+
+.content1>.btn1>button {
+    border: solid 1px black;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    background-color: purple;
+}
+
+.content1>.btn2>button {
+    border: solid 2px black;
+    border-radius: 20px;
+    color: black;
+    height: 40px;
+    width: 150px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
